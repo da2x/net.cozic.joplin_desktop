@@ -17,7 +17,7 @@ finish-args:
   - --device=dri
   - --share=ipc
   - --share=network
-  - --filesystem=home
+  - --persist=.config
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierWatcher
   - --talk-name=com.canonical.AppMenu.Registrar
